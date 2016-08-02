@@ -71,7 +71,7 @@ public class TagViewer extends Activity {
         mAdapter = NfcAdapter.getDefaultAdapter(this);
         if (mAdapter == null) {
             showMessage(R.string.error, R.string.no_nfc);
-            finish();
+            // finish();
             return;
         }
 
